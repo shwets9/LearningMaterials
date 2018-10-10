@@ -1,0 +1,1 @@
+http://www.javavillage.in/how-create-pmd-custom-rule-ruleset.php.................link for creating own rule using pmd.
