@@ -1,0 +1,21 @@
+Snowball
+==================
+Snowball is a petabyte-scale data transport solution that uses devices designed to be secure 
+to transfer large amounts of data into and out of the AWS Cloud.
+
+OLD Scale
+-------------
+Can migrate upto 80TB of data. More than that size , choose Snowedge 
+and when Petabytes of data is concerned, choose Snowmobile. 
+
+Three types: 
+	1.Snowball
+	2.Snowedge
+	3.Snowmobile
+
+All 3 are compute models now, they are not only storage devices. There are instances running inside.
+
+Use Cases
+===============
+. Disaster Recovery
+. Cloud Migration

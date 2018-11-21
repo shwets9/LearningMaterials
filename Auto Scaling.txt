@@ -1,0 +1,25 @@
+Auto Scaling
+=====================================
+Two parts:
+	i) Launch Configuration
+	ii) Auto Scaling Group
+
+3 Type:
+	i) Manual
+	ii) Policy Based (also called Dynamic)
+	iii) Scheduled Based - It is recurring
+
+1. Only one launch configuration can be attached with autoscaling group.
+2. Auto Scaling cooldown time, during this time no auto scaling activity is taking place.
+3. Auto scaling should not happen frequently. 
+4. Once the launch configuration is created it cannot be modified, you need to copy it and then change.
+5. Lifecycle Hooks - Its basically a script which 
+6. When you are combining autoscaling with ELB healthcheck should be ELB rather than EC2.
+
+Default Termination Policy
+---------------------------------------
+1. Terminate from availability zone that has more instances.
+2. If same no. of instances then terminate the instance having oldest launch configuration.
+3. If same launch configuration as well then terminate the instance nearest to the billing hour.
+
+Note: Read all parts Default,Customized,Instance Protection,StandBy,Suspension..

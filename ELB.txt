@@ -1,0 +1,13 @@
+Elastic Load Balancer
+==================================
+3 Types:
+	i) Application
+	ii) Network
+	iii) Classic - It is depricated
+
+1. ELB supports Http, Https(Working at Application Layer, Port- 443), SSL(Working at Transport Layer, Port - 443 same as https),
+   TCP event listeners.
+2. Depending on Placement Group there are 2 types of ELB:
+			i) Internal ELB
+			ii) External ELB
+3. 
